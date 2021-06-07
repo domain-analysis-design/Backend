@@ -1,6 +1,17 @@
 # Backend
 
-## build.gradle
+### install gradle (linux/mac)
+```
+gradle runJar
+```
+
+### install gradle (windows)
+```
+gradlew.bat runJar
+```
+
+## plugins and dependencies
+### build.gradle file
 ```gradle
 plugins {
     id 'org.springframework.boot' version '2.3.2.RELEASE'
@@ -41,3 +52,10 @@ test {
 
 ## gradle build
 grade build -x test
+
+### server info
+```
+htttp://localhost:8080/
+user : root
+password : root
+```
